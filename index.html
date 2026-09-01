@@ -3,21 +3,127 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Biodata - SMKN 3 Sekayu</title>
+    <title>Portofolio Diri Siswa RPL</title>
+
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f0f4f8; margin: 40px; text-align: center; }
-        .card { background-color: white; padding: 30px; border-radius: 10px; display: inline-block; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
-        h1 { color: #2b6cb0; }
-        p { color: #4a5568; line-height: 1.6; }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f4f8;
+            margin: 0;
+            padding: 40px;
+            color: #2d3748;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .card {
+            background-color: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+            background: linear-gradient(135deg, #2b6cb0, #4299e1);
+            color: white;
+        }
+
+        header h1 {
+            margin-bottom: 10px;
+        }
+
+        header p {
+            color: white;
+        }
+
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 5px solid white;
+        }
+
+        h2 {
+            color: #2b6cb0;
+        }
+
+        p {
+            line-height: 1.7;
+            color: #4a5568;
+        }
+
+        ul, ol {
+            line-height: 2;
+            color: #4a5568;
+        }
+
+        footer {
+            text-align: center;
+            color: #718096;
+            padding: 10px;
+        }
     </style>
 </head>
+
 <body>
-    <div class="card">
-        <h1>Halo, Saya Siswa SMKN 3 Sekayu!</h1>
-        <p><b>Nama:</b> Anisa Desti Yanti</p>
-        <p><b>Kelas:</b> X RPL 2</p>
-        <p><b>Cita-Cita:</b> Software Engineer / Web Developer</p>
-        <p><i>Website ini berhasil dionlinekan menggunakan GitHub Pages!</i></p>
+
+    <div class="container">
+
+        <header class="card">
+            <img src="foto-profil.jpg" alt="Foto Profil" class="profile-img">
+
+            <h1>Portofolio Diri Siswa RPL</h1>
+            <h2>Anisa Desti Yanti</h2>
+
+            <p>
+                Halo! Saya <b>Anisa Desti Yanti</b>, siswa
+                <i>SMKN 3 Sekayu</i> dari jurusan Rekayasa Perangkat Lunak.
+            </p>
+        </header>
+
+        <section class="card">
+            <h2>Profil Diri</h2>
+
+            <p><b>Nama:</b> Anisa Desti Yanti</p>
+            <p><b>Kelas:</b> X RPL 2</p>
+            <p><b>Sekolah:</b> SMKN 3 Sekayu</p>
+            <p><b>Cita-Cita:</b> Software Engineer / Web Developer</p>
+        </section>
+
+        <section class="card">
+            <h2>Hobi</h2>
+
+            <ul>
+                <li>Menonton</li>
+                <li>Membaca</li>
+                <li>Mendengarkan musik</li>
+                <li>Belajar teknologi</li>
+                <li>Membuat desain website</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>Keterampilan</h2>
+
+            <ol>
+                <li>HTML dasar</li>
+                <li>CSS dasar</li>
+                <li>Membuat desain halaman web</li>
+                <li>Menggunakan Visual Studio Code</li>
+            </ol>
+        </section>
+
+        <footer>
+            <p><i>© 2026 Anisa Desti Yanti - Siswa SMKN 3 Sekayu</i></p>
+        </footer>
+
     </div>
+
 </body>
 </html>
